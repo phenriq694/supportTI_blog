@@ -1,0 +1,21 @@
+.container {
+    margin-top: 50px;
+    padding: 0px;
+    border: 1px solid red;
+    width: 500px;
+    height: 700px;
+}
+
+.gif {
+    width: 499px;
+    height: 330px;
+}
+
+.text {
+    width: 499px;
+    height: 330px;
+}
+
+button {
+    float: right;
+}
