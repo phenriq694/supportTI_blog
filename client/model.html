@@ -10,7 +10,9 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="Public/bootstrap/css/bootstrap.min.css">
     
-    <link rel="stylesheet" href="Public/style.css"
+    <link rel="stylesheet" href="Public/style.css">
+
+    <script src="Public/js/script.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,18 +65,18 @@
 
     <div class="container">
         <div class="gif">
-          <img src="../server/images/macPreparo/01.PNG" width="499px" height="330px">
+          <img id="git_image"src="../server/images/macPreparo/01.PNG" width="499px" height="330px">
         </div>
         <div class="text">
           <h1>Lorem Ipsum</h1>
 
-          <p>
+          <p id="tutorial">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo mauris vel dolor tincidunt ullamcorper. Donec ullamcorper sed risus a faucibus. Donec lobortis purus quis nulla lacinia mollis. Aenean malesuada in arcu sit amet eleifend. Duis gravida justo a sollicitudin ornare. Sed iaculis et leo id scelerisque. Nam cursus convallis porta. Duis interdum tristique egestas. Morbi magna massa, elementum non leo eu, ornare volutpat nulla. 
           </p>
         </div>
 
         <div class="footer">
-          <button>-></button>
+          <button onclick="nextButton()">-></button>
         </div>
     </div>  
 
