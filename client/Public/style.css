@@ -1,19 +1,26 @@
-.container {
-    margin-top: 50px;
+body {
+    margin: 0px;
     padding: 0px;
+}
+.bloco {
+    margin: 50px auto;
     border: 1px solid red;
-    width: 500px;
+    width: 99%;
     height: 700px;
 }
 
-.gif {
-    width: 499px;
-    height: 330px;
+.imagem {
+    border: blue 3px solid;
+    width: 70%;
+    height: 100%;
+    float: left;
 }
 
-.text {
-    width: 499px;
-    height: 330px;
+.texto {
+    border: yellow 3px solid;
+    width: 30%;
+    height: 100%;
+    float: right;
 }
 
 button {
