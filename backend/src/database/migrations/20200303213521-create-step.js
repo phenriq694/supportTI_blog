@@ -1,7 +1,7 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
     // Será executado quando a migration for aplicada
-    return queryInterface.createTable('step', {
+    return queryInterface.createTable('steps', {
       id: {
         type: Sequelize.INTEGER,
         allowNull: false,
@@ -11,6 +11,10 @@ module.exports = {
       step_name: {
         type: Sequelize.STRING,
         allowNull: false,
+      },
+      description: {
+        type: Sequelize.STRING,
+        allowNull: true,
       },
       page_id: {
         type: Sequelize.INTEGER,
@@ -33,6 +37,6 @@ module.exports = {
 
   down: queryInterface => {
     // Será executado quando a migration for desfeita.
-    return queryInterface.dropTable('step');
+    return queryInterface.dropTable('steps');
   },
 };
